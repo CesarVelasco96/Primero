@@ -1,0 +1,7 @@
+git config --global user.name "NOMBRE"
+git config --global user.email "EMAIL"
+
+Iniciar repositorio 
+git init
+Ver que archivos hay 
+git status
