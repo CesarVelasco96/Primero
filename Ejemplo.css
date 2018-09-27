@@ -1,0 +1,30 @@
+<HTML>
+<HEAD><TITLE>Estilos</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="estilo.css">
+</HEAD>
+<BODY>
+
+Texto fuera de párrafo.<BR>
+Segunda línea fuera de párrafo.
+
+<P>texto de párrafo. <BR> segunda línea de párrafo.</P>
+
+</BODY>
+</HTML>
+
+Y si escribimos la siguiente hoja de estilo estilo.css:
+
+BODY {color:green }
+
+P {color:red; 
+   font-size:20px;
+   font-family:Courier;
+   font-weight:bold;
+   font-style:italic;
+   line-height:30px;
+   letter-spacing:5px;
+   text-decoration:underline;
+   text-transform:capitalize;
+   text-align:left;
+   text-indent:30px;
+  }
